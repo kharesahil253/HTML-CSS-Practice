@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.mainhead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+.main-heading-class h5 {
+    font-size: 30px;
+    margin: 20px auto;
+    max-width: 400px !important;
+}
+
+.headings {
+    width: 60%;
+    display: flex;
+}
+
+.headings ul {
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    /* background-color:red; */
+}
+
+.headings ul li {
+    font-size: 17px;
+}
+
+.button h4:hover {
+    background-color: black;
+}
+.endhead {
+    display: flex;
+    /* background-color: yellow; */
+    margin-left: 37px;
+}
+
+.button h4 {
+    background-color: orangered;
+    color: aliceblue;
+    font-size: larger;
+    transition: 0.5s;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 11px 11px;
+    margin-right: 20px;
+
+}
+.thelist ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.icon i {
+    font-size: 31px;
+}
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 300px;
+    background-color: azure;
+    flex-direction: column;
+    gap: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+    transform: translateY(-20px);
+    color: black;
+}
+
+.dropdown li {
+    padding: 10px;
+    font-size: 15px !important;
+}
+
+.head1 ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transform: translateY(0px);
+}
+
+.head1 ul li {
+    position: relative;
+}
+
+.head1 ul li a {
+    color: black !important;
+}
+
+.subdropdown {
+    position: absolute !important;
+    top: 30px;
+    left: 100%;
+    width: 200px;
+    background-color: azure;
+    flex-direction: column;
+    gap: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: translateY(-20px);
+    color: black;
+}
+
+.subdropdown li {
+    padding: 10px;
+    color: black;
+}
+
+.dropdown ul li {
+    position: relative;
+    color: black;
+}
+
+.dropdown li:hover>.subdropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transform: translateY(0px);
+}
+
+.th {
+    background-color: darkorange;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 8px;
+    margin-left: 3px;
+}
+.th h5 {
+    font-size: 11px;
+}
+.icon {
+    font-size: 25px;
+    margin-right: 23px;
+}
+
+.hoj {
+    padding: 25px;
+    text-align: center;
+    font-size: 35px;
+    background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
+}
