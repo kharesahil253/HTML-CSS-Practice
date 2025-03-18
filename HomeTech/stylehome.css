@@ -1,0 +1,716 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+.mainhead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+.headings {
+    display: flex;
+}
+
+.headings ul {
+    margin-top: 25px;
+    display: flex;
+    gap: 19px;
+    font-weight: bold;
+}
+
+.headings ul li {
+    font-size: 18px;
+}
+
+.text1 h3 {
+    font-size: 45px;
+}
+
+.endhead {
+    display: flex;
+}
+
+.contact {
+    margin-top: 10px;
+    margin-right: 7px;
+
+}
+
+.icon i {
+    font-size: 31px;
+}
+
+.buttons h4 {
+    background-color: blue;
+    color: aliceblue;
+    font-size: larger;
+    transition: 0.5s;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 11px 11px;
+    margin-right: 20px;
+    gap: 40px;
+}
+
+.content {
+    width: 100%;
+    padding: 150px 150px;
+    gap: 70px;
+    display: flex;
+    background-position: 0;
+    background-size: cover;
+    /* background-color: plum; */
+    justify-content: center;
+    background-image: url(/HomeTech/images/Section2.png);
+}
+
+.bigimg img {
+    width: 700px;
+}
+
+.text1 {
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.text1 p {
+    margin-top: 12px;
+    font-size: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.button1 h4 {
+    background-color: rgb(163, 104, 217);
+}
+
+.button2 h4 {
+    background-color: orangered;
+}
+
+.main-work-process {
+    width: 100%;
+}
+
+.main-heading-class {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-heading-class h6 {
+    margin-top: 60px;
+    font-size: 16px;
+    color: #696687;
+
+}
+
+.main-heading-class h5 {
+    font-size: 26px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    color: rgb(59, 54, 99);
+}
+
+.main-box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 6px 26px;
+}
+
+.box1 {
+    width: 33%;
+    text-align: center;
+}
+
+.box41 {
+    width: 33%;
+    text-align: center;
+}
+
+.image-of-box img {
+    width: 300px;
+}
+
+.image-of-box .font {
+    width: 300px;
+
+}
+
+.image-of-box {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+.image-of-box .back {
+    display: none;
+    width: 300px;
+    margin-left: 80px;
+}
+
+.image-of-box:hover .back {
+    display: block;
+}
+
+.image-of-box:hover .font {
+    display: none;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+.postion2 img {
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.ser {
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    color: rgb(21, 21, 77);
+    padding-top: 70px;
+}
+
+.ser h3 {
+    margin-top: 10px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.fullcon {
+    display: flex;
+}
+
+.num1 {
+    display: flex;
+}
+
+.num2 {
+    display: flex;
+}
+
+.textimage img {
+    width: 80px;
+    margin: 35px;
+
+}
+
+.textnum1 {
+    text-align: right;
+}
+
+.textnum1 h6 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.textnum1 p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.textnum2 h6 {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.textnum2 p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.request-btn {
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.imageboxmid {
+    width: 100%;
+    text-align: center;
+}
+
+.imageboxmid img {
+    width: 400px;
+}
+
+.textbetween {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+.textbetween h3 {
+    margin: 15px;
+
+}
+
+.textbetween p {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.butbtw {
+    width: 100%;
+    text-align: center;
+}
+
+.but1,
+.subtn button {
+    color: antiquewhite;
+    padding: 5px 5px;
+    background-color: orangered;
+    font-size: 17px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    border: none;
+}
+
+.youth {
+    font-size: 32px;
+    margin: 50px;
+    text-align: center;
+    color: rgb(45, 8, 45);
+}
+
+.customer {
+    width: 100%;
+    display: flex;
+    margin: 15px px;
+    gap: 10px;
+    text-align: center;
+    color: rgb(5, 67, 67);
+}
+
+.cus1 h3 {
+    margin: 15px;
+    font-size: 55px;
+    color: rgb(107, 94, 233);
+}
+
+.cus1 h5 {
+    font-size: 20px;
+    color: rgb(59, 54, 99);
+}
+
+.cus1 p {
+    margin: 20px 10px;
+    font-size: 15px;
+    color: rgb(59, 54, 99);
+}
+
+.cus2 h3 {
+    margin: 13px;
+    font-size: 55px;
+    color: rgb(107, 94, 233);
+}
+
+.cus2 h5 {
+    font-size: 25px;
+    color: rgb(59, 54, 99);
+}
+
+.cus2 p {
+    margin: 16px 20px;
+    font-size: 15px;
+    color: rgb(59, 54, 99);
+}
+
+.orclient {
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.clientbox {
+    width: 100%;
+    display: flex;
+}
+
+.client1 {
+    margin-top: 5px;
+    width: 25%;
+    text-align: center;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.client1:before {
+    width: 100%;
+    height: 0%;
+    content: "";
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    background: #0000003d;
+    bottom: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.client1:after {
+    width: 100%;
+    height: 0%;
+    content: "";
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    background: rgb(242, 112, 156);
+    background: linear-gradient(90deg, rgba(242, 112, 156, 1) 0%, rgba(255, 255, 255, 0.7898809181875875) 49%, rgba(254, 143, 117, 1) 99%);
+    top: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.client1:hover:before {
+    height: 100%;
+}
+
+.client1:hover:after {
+    height: 100%;
+}
+
+.client1 img {
+    width: 200px;
+}
+
+.see {
+    text-align: center;
+    font-size: 34px;
+}
+
+.button {
+    width: 100px;
+    background-color: darkgray;
+    color: beige;
+}
+
+.ven {
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    text-shadow: 2px solid grey;
+}
+
+.ven1image {
+    position: relative;
+}
+
+.ven1image img {
+    width: 120px;
+    position: relative;
+}
+
+.ven1image:after {
+    width: 100%;
+    height: 0%;
+    content: "";
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    background-color: #0000003d;
+    top: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.ven1image:hover:after {
+    height: 100%;
+}
+
+.theventures {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.ven1 {
+    text-align: center;
+}
+
+.ven1 h4 {
+    color: rgb(59, 54, 99);
+    font-size: 24px
+}
+
+.ven1 p {
+    color: rgb(105, 102, 135);
+    font-size: 18px;
+    margin: 15px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 300px;
+    background-color: azure;
+    flex-direction: column;
+    gap: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+    transform: translateY(-20px);
+    color: black;
+}
+
+.dropdown li {
+    padding: 10px;
+    font-size: 15px !important;
+}
+
+.head1 ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transform: translateY(0px);
+}
+
+.head1 ul li {
+    position: relative;
+}
+
+.head1 ul li a {
+    color: black !important;
+}
+
+.subdropdown {
+    position: absolute !important;
+    top: 30px;
+    left: 100%;
+    width: 200px;
+    background-color: azure;
+    flex-direction: column;
+    gap: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: translateY(-20px);
+    color: black;
+}
+
+.subdropdown li {
+    padding: 10px;
+    color: black;
+}
+
+.dropdown ul li {
+    position: relative;
+    color: black;
+}
+
+.dropdown li:hover>.subdropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transform: translateY(0px);
+}
+
+.mainbox {
+    height: 61vh;
+    display: flex;
+    /* background-color: blue; */
+    background-image: url("/HomeTech/images/Section.png");
+}
+
+.thebox {
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    padding: 20px 20px;
+    justify-content: last baseline;
+}
+
+.headbox {
+    margin: 10px;
+    padding: 40px;
+    font-size: 25px;
+
+}
+
+.entry {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entry input {
+    padding: 10px;
+    margin: 15px 15px;
+    font-size: 17px;
+    border: none;
+
+    border-bottom: 1px solid #dadada;
+}
+
+.lastcontent {
+    width: 100%;
+    display: flex;
+    padding: 70px;
+    gap: 20px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.lastcontent .con1 {
+    width: 50%;
+}
+
+.con1 .text p {
+    text-align: start;
+}
+
+.social {
+    display: flex;
+    margin: 5px 5px;
+    padding: 3px 3px;
+    font-size: 20px;
+}
+
+.social i {
+    margin: 0px 4px;
+}
+
+.info {
+    margin: 20px;
+}
+
+.info-1 {
+    display: flex;
+    width: 40%;
+}
+
+.info-1 img {
+    margin-right: 25px;
+    margin-left: 15px;
+}
+
+.subtn {
+    text-align: start;
+    padding: 0 120px;
+}
+
+.info-1 h5 {
+    margin-left: 20px;
+}
+
+.info-2 {
+    display: flex;
+    width: 60%;
+}
+
+.info-2 img {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.info-2 h5 {
+    margin-left: 8px;
+}
+
+.table {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.tab2 {
+    margin-left: 60px;
+}
+
+.tab1 ul {
+    margin-top: 28px;
+}
+
+.phase1 ol {
+    list-style: visible;
+}
+
+.tab1 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.tab2 ul {
+    margin-top: 30px;
+}
+
+.tab2 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.inside {
+    width: 80%;
+    bottom: 0;
+    margin-left: 150px;
+    font-size: 15px;
+}
+
+.request-btn {
+    background-image: url(/HomeTech/images/Section.png);
+}
+
+.ftbt,
+.see button {
+    padding: 13px 30px;
+    font-size: 16px;
+    border-radius: 3px;
+    color: beige;
+    font-weight: 700;
+    background-color: #69727d;
+    border: none;
+    margin: 27px;
+}
