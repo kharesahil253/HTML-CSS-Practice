@@ -4,7 +4,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -12,6 +12,7 @@
     width: 100%;
     margin: auto;
 }
+
 .mainhead {
     width: 100%;
     display: flex;
@@ -42,7 +43,7 @@
 }
 
 .headings {
-    width: 60%;
+    width: 56%;
     display: flex;
 }
 
@@ -62,6 +63,7 @@
 .button h4:hover {
     background-color: black;
 }
+
 .endhead {
     display: flex;
     /* background-color: yellow; */
@@ -79,6 +81,7 @@
     margin-right: 20px;
 
 }
+
 .thelist ul li {
     text-decoration: none;
     color: black;
@@ -87,6 +90,7 @@
 .icon i {
     font-size: 31px;
 }
+
 .dropdown {
     position: absolute;
     top: 30px;
@@ -157,14 +161,307 @@
 .th h5 {
     font-size: 11px;
 }
+
 .icon {
     font-size: 25px;
     margin-right: 23px;
 }
 
 .account {
-    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
+}
+
+.ct1 {
+    display: flex;
+    gap: 20px;
+}
+
+.ci1 img {
+    width: 550px;
+    margin-left: 20px;
+}
+
+.ctx {
+    /* font-size: 19px; */
+}
+
+.ctx h3 {
+    margin: 0px 10px;
+    padding: 0px 85px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.ctx p {
+    padding: 10px 85px;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.texton p,
+.texton2 p,
+.texon3 p {
+    padding: 25px;
+}
+
+.ct2,
+.ct3 {
+    display: flex;
+    gap: 15px;
+}
+
+.ct2x,
+.ct3x {
+    font-size: 22px;
+}
+
+.ct2x h3 {
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.ct2x p,
+.ct3x p {
+    padding: 30px;
+}
+
+.cti img,
+.cti3 img {
+    width: 550px;
+}
+
+.secim {
+    text-align: center;
+}
+
+.secim img {
+    width: 700px;
+}
+
+.tickgo ul li img {
+    width: 25px;
+}
+
+.tickgo ul li {
+    padding: 15px;
+}
+
+.reports {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    gap: 40px;
+}
+
+.report1 {
+    width: 47%;
+    border: 3px solid black;
+}
+
+.userright{
+    text-align: center;
+    margin:10px;
+}
+.userright h2{
+    margin:10px;
+    font-size: 22px;
+}
+.userright p{
+     margin:10px;
+    font-size: 22px;
+}
+.userright h6{
+     margin:10px;
+    font-size: 22px;
+}
+.report1 h3,
+.rights h3 {
+    background-color: rgb(254, 116, 87);
+    text-align: center;
+    border-bottom: 2px solid black;
+    color:white;
+}
+.boxing{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.rights{
+    width:48%;
+     border: 3px solid black;
+}
+.backup{
+    display: flex;
+    text-align: center;
+}
+
+.partial{
+    text-align: center;
+}
+
+.leftbox{
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 600px;
+    float: right;
+    margin: 10px;
+}
+.entrybox{
+    border: 5px solid none;
+    padding: 40px;
+    background-image:url(/Politica-main/WhatsBulk/images/Section.png);
+    background-position:50%;
+    background-size:cover;
+}
+.send{
+    background-color: blue;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 8px;
+    margin-left: 3px;
+    margin-left: 10px;
+}
+.entrybox h3{
+    font-size: 30px;
+    padding: 20px;
+}
+.entrybox h6{
+    font-size: 20px;
+    padding: 20px;
+}
+.entrybox h4{
+    font-size: 20px;
+    padding: 20px;
+}
+.the-input{
+    display: flex;
+    flex-wrap: wrap;
+}
+.the-input input{
+    margin: 10px 10px !important;
+    padding: 15px !important;
+    border: none;
+    border-style: none;
+    border-bottom: 1px solid grey;
+}
+#message{
+    padding: 100px 135px;
+    text-align: start;
+}
+
+.lastcontent {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.lastcontent .con1 {
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    margin: 0px  2px;
+    padding: 3px 3px;
+    font-size: 20px;
+    gap: 6px;
+}
+
+.social i {
+    margin: 0px px;
+}
+
+.info {
+    margin: 30px 0px;
+    /
+}
+
+.info-1 {
+    display: flex;
+    width: 40%;
+}
+
+.info-1 img {
+    margin-right: 17px;
+    width: 50px;
+    margin-left: 7px;
+}
+
+.info-1 h5 {
+    margin-left: 20px;
+}
+
+.info-2 {
+    display: flex;
+    width: 60%;
+}
+
+.info-2 img {
+    padding-top: 5px;
+    padding-right: 2px;
+    margin-top: 15px;
+    margin-right: 25px;
+    width: 60px;
+}
+
+.info-2 h5 {
+    margin-left: 8px;
+}
+
+.table {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.tab2 {
+    margin-left: 60px;
+}
+
+.tab1 ul {
+    margin-top: 28px;
+}
+
+.phase1 ol {
+    list-style: visible;
+}
+
+.tab1 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.tab2 ul {
+    margin-top: 30px;
+}
+
+.tab2 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.inside {
+    width: 80%;
+    bottom: 0;
+    padding-left: 85px;
+    margin-left: 85px;
+    font-size: 15px;
+}
+.logo1 img{
+    width: 250px;
+}
+.noaera{
+    height: 150px;
+    width:450px;
+    margin-left: 10px;
 }

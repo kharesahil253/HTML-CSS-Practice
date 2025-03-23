@@ -6,7 +6,32 @@
     text-decoration: none;
     font-family: "Kumbh Sans", sans-serif;
 }
-
+.corner{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    gap: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.move{
+    border-radius: 50%;
+    height: 45px ;
+    width: 45px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.corner i{
+    font-size: 2.5pc;
+    color: white;
+}
+.corner h6{
+    margin-top: 10px;
+    font-size: 15px;
+}
 .mainhead {
     width: 100%;
     display: flex;
