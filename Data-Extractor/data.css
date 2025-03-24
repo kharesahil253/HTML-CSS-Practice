@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+.mainhead {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+.logo {
+    width: 40%;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+.main-heading-class h5 {
+    font-size: 30px;
+    margin: 20px auto;
+    max-width: 400px !important;
+}
+
+.headings {
+    width: 56%;
+    display: flex;
+}
+
+.headings ul {
+    list-style: none;
+    margin-top: 5px;
+    display: flex;
+    gap: 15px;
+    font-weight: bold;
+    /* background-color:red; */
+}
+
+.headings ul li {
+    font-size: 17px;
+}
+
+.button h4:hover {
+    background-color: black;
+}
+
+.endhead {
+    display: flex;
+    /* background-color: yellow; */
+    margin-left: 37px;
+}
+
+.button h4 {
+    background-color: orangered;
+    color: aliceblue;
+    font-size: larger;
+    transition: 0.5s;
+    font-size: 13px;
+    border-radius: 8px;
+    padding: 11px 11px;
+    margin-right: 20px;
+
+}
+
+.thelist ul li {
+    text-decoration: none;
+    color: black;
+}
+
+.icon i {
+    font-size: 31px;
+}
+
+.dropdown {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 300px;
+    background-color: azure;
+    flex-direction: column;
+    gap: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.7s;
+    transform: translateY(-20px);
+    color: black;
+}
+
+.dropdown li {
+    padding: 10px;
+    font-size: 15px !important;
+}
+
+.head1 ul li:hover .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transform: translateY(0px);
+}
+
+.head1 ul li {
+    position: relative;
+}
+
+.head1 ul li a {
+    color: black !important;
+}
+
+.subdropdown {
+    position: absolute !important;
+    top: 30px;
+    left: 100%;
+    width: 200px;
+    background-color: azure;
+    flex-direction: column;
+    gap: 0px !important;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    transform: translateY(-20px);
+    color: black;
+}
+
+.subdropdown li {
+    padding: 10px;
+    color: black;
+}
+
+.dropdown ul li {
+    position: relative;
+    color: black;
+}
+
+.dropdown li:hover>.subdropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+    transform: translateY(0px);
+}
+
+.th h5 {
+    font-size: 11px;
+}
+
+.icon {
+    font-size: 25px;
+    margin-right: 23px;
+}
+
+.account {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 33px;
+    background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
+}
+.section-1{
+    display: flex;
+}
+.secima img{
+    width:600px;
+}
+.ourdata img{
+    width:30px;
+}
+.section2{
+    text-align: center;
+    margin: 10px 30px;
+    padding: 10px 28px;
+}
+.part1{
+    border: 1px solid grey;
+}
+.part1 h2{
+    font-size: 20px;
+    color: rgb(105, 102, 135);
+    padding:12px;
+    background-color: rgb(254, 116, 87);
+}
+.part1 p{
+    color: rgb(105, 102, 135);
+    margin: 10px 17px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 9px 48px;
+
+}
+
+.faqs h3 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(27, 27, 49);
+    margin:10px;
+    padding:20px;
+}
+
+.faqs h6 {
+    margin: 2px;
+    padding: 15px;
+    font-size: 16px;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.lastcontent {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.lastcontent .con1 {
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    margin: 0px  2px;
+    padding: 3px 3px;
+    font-size: 20px;
+    gap: 6px;
+}
+
+.social i {
+    margin: 0px px;
+}
+
+.info {
+    margin: 30px 0px;
+    /
+}
+
+.info-1 {
+    display: flex;
+    width: 40%;
+}
+
+.info-1 img {
+    margin-right: 17px;
+    width: 50px;
+    margin-left: 7px;
+}
+
+.info-1 h5 {
+    margin-left: 20px;
+}
+
+.info-2 {
+    display: flex;
+    width: 60%;
+}
+
+.info-2 img {
+    padding-top: 5px;
+    padding-right: 2px;
+    margin-top: 15px;
+    margin-right: 25px;
+    width: 60px;
+}
+
+.info-2 h5 {
+    margin-left: 8px;
+}
+
+.table {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.tab2 {
+    margin-left: 60px;
+}
+
+.tab1 ul {
+    margin-top: 28px;
+}
+
+.phase1 ol {
+    list-style: visible;
+}
+
+.tab1 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+
+}
+
+.tab2 ul {
+    margin-top: 30px;
+}
+
+.tab2 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+
+}
+
+.inside {
+    width: 80%;
+    bottom: 0;
+    padding-left: 85px;
+    margin-left: 85px;
+    font-size: 15px;
+}
+.logo1 img{
+    width: 250px;
+}
+.noaera{
+    height: 150px;
+    width:450px;
+    margin-left: 10px;
+}
