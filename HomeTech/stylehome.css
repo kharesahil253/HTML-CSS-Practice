@@ -6,8 +6,9 @@
     text-decoration: none;
     font-family: "Kumbh Sans", sans-serif;
 }
-.corner{
-    position:fixed;
+
+.corner {
+    position: fixed;
     bottom: 0;
     left: 0;
     display: flex;
@@ -15,23 +16,28 @@
     padding-left: 20px;
     padding-bottom: 20px;
 }
-.move{
+
+.move {
     border-radius: 50%;
-    height: 45px ;
+    height: 45px;
     width: 45px;
-    background-color: green;
+    background-color:
+        rgb(0, 231, 133);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.corner i{
+
+.corner i {
     font-size: 2.5pc;
     color: white;
 }
-.corner h6{
+
+.corner h6 {
     margin-top: 10px;
     font-size: 15px;
 }
+
 .mainhead {
     width: 100%;
     display: flex;

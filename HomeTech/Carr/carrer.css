@@ -163,4 +163,9 @@
     font-size: 35px;
     background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
 }
-
+.von{
+    display: flex;
+    margin:50px 40px;
+    padding:100px 100px;
+    justify-content: space-between;
+}

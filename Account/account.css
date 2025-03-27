@@ -178,6 +178,7 @@
 .ct1 {
     display: flex;
     gap: 20px;
+    color: rgb(59, 54, 99);
 }
 
 .ci1 img {
@@ -200,14 +201,29 @@
     padding: 10px 85px;
     font-size: 20px;
     margin-left: 8px;
+    color: rgb(105, 102, 135);
+}
+
+.texton2 {
+    margin-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .texton p,
-.texton2 p,
-.texon3 p {
-    padding: 25px;
+.texton2 p {
+    padding: 25px 90px;
+    color: rgb(105, 102, 135);
+    font-size: 19px;
 }
-
+.texon3 {
+    margin-top: 30px;
+}
+.texon3 p {
+    padding: 7px 19px;
+    color: rgb(105, 102, 135);
+    font-size: 19px;
+    margin: 20px 22px;
+}
 .ct2,
 .ct3 {
     display: flex;
@@ -219,19 +235,46 @@
     font-size: 22px;
 }
 
-.ct2x h3 {
-    margin: 20px;
-    padding: 10px 20px;
+.ct2x h3,
+.ct3x h3 {
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-left: 39px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(59, 54, 99);
 }
 
 .ct2x p,
-.ct3x p {
-    padding: 30px;
+.ct3x p{
+    /* padding: 30px; */
+    margin-left: 39px;
+    font-weight: 350;
+    color: rgb(105, 102, 135);
 }
 
-.cti img,
+.cti img {
+    width: 543px;
+}
+
 .cti3 img {
-    width: 550px;
+    width: 500px;
+    margin-top: 56px;
+    margin-left: 40px;
+}
+.sec4 h3{
+    padding-top: 40px;
+    margin-top: 20px;
+    margin-left: 39px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(59, 54, 99);
+}
+.sec4 p{
+    margin-left: 39px;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(105, 102, 135);
 }
 
 .secim {
@@ -243,81 +286,163 @@
 }
 
 .tickgo ul li img {
-    width: 25px;
+    width: 33px;
+    margin: -10px 9px;
 }
+.tickgo h4{
+    color: rgb(59, 54, 99);
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+}
+.tickgo ul li b{
+    color: rgb(59, 54, 99);
 
+}
 .tickgo ul li {
+    font-size: 19px;
+    line-height: 33px;
     padding: 15px;
-}
+    color: rgb(105, 102, 135);
 
+}
+.repo {
+    text-align: center;
+    color: rgb(59, 54, 99);
+    font-size: 35px;
+    margin: 20px;
+
+}
 .reports {
     display: flex;
     flex-wrap: wrap;
     /* width: 100%; */
-    gap: 40px;
+    gap: 39px;
+}
+.reports p{
+    font-size: 18px;
+    color: rgb(105, 102, 135);
+    font-weight: 450;
+    font-size: 18px;
 }
 
 .report1 {
-    width: 47%;
-    border: 3px solid black;
+    width: 48%;
+    height: fit-content;
+    border: 2px solid grey;
+}
+.report1 p{
+    padding: 25px 35px;
+    font-size: 18px;
 }
 
-.userright{
+
+.userright {
     text-align: center;
-    margin:10px;
+    color: rgb(59, 54, 99);
+    font-size: 35px;
+    margin: 20px;
+
 }
-.userright h2{
-    margin:10px;
+
+.userright h2 {
+    margin: 30px;
+    font-size: 30px;
+    padding-top: 34px;
+}
+
+.userright p {
+    margin: 10px;
+    font-size: 18px;
+    padding:17px;
+    font-weight: 450;
+}
+
+.userright h6 {
+    margin: 21px;
     font-size: 22px;
 }
-.userright p{
-     margin:10px;
-    font-size: 22px;
-}
-.userright h6{
-     margin:10px;
-    font-size: 22px;
-}
+
 .report1 h3,
 .rights h3 {
+    padding:15px;
     background-color: rgb(254, 116, 87);
     text-align: center;
-    border-bottom: 2px solid black;
-    color:white;
+    border-bottom: 2px solid gainsboro;
+    color: white;
+    font-size: 24px;
 }
-.boxing{
+
+.boxing {
     display: flex;
     flex-wrap: wrap;
-    gap:20px;
+    gap: 20px;
 }
-.rights{
-    width:48%;
-     border: 3px solid black;
+
+.rights {
+    width: 48%;
+    height: fit-content;
+    border: 2px solid gray;
 }
-.backup{
+
+.database h2 {
+    text-align: center;
+    color: rgb(59, 54, 99);
+    font-size: 35px;
+    margin:10px;
+    padding-top: 50px;
+}
+.database p{
+    text-align: center;
+    margin:17px;
+    padding-bottom: 25px;
+    color: rgb(59, 54, 99);
+    font-size: 18px;
+
+}
+.backup {
     display: flex;
     text-align: center;
 }
-
-.partial{
+.back1{
+    padding:0px 55px;
+    height: fit-content;
+    font-weight: 450;
+}
+.partial h2{
     text-align: center;
+    color: rgb(59, 54, 99);
+    font-size: 36px;
+    margin:20px;
+    padding:30px;
 }
 
-.leftbox{
+.partial p{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 450;
+    margin:0px 45px;
+    line-height: 27px;
+    color: rgb(59, 54, 99);
+}
+
+.leftbox {
     display: flex;
     /* justify-content: flex-end; */
     width: 600px;
     float: right;
     margin: 10px;
 }
-.entrybox{
+
+.entrybox {
     border: 5px solid none;
     padding: 40px;
-    background-image:url(/Politica-main/WhatsBulk/images/Section.png);
-    background-position:50%;
-    background-size:cover;
+    background-image: url(/Politica-main/WhatsBulk/images/Section.png);
+    background-position: 50%;
+    background-size: cover;
 }
-.send{
+
+.send {
     background-color: blue;
     color: white;
     padding: 12px 12px;
@@ -325,30 +450,36 @@
     margin-left: 3px;
     margin-left: 10px;
 }
-.entrybox h3{
+
+.entrybox h3 {
     font-size: 30px;
     padding: 20px;
 }
-.entrybox h6{
+
+.entrybox h6 {
     font-size: 20px;
     padding: 20px;
 }
-.entrybox h4{
+
+.entrybox h4 {
     font-size: 20px;
     padding: 20px;
 }
-.the-input{
+
+.the-input {
     display: flex;
     flex-wrap: wrap;
 }
-.the-input input{
+
+.the-input input {
     margin: 10px 10px !important;
     padding: 15px !important;
     border: none;
     border-style: none;
     border-bottom: 1px solid grey;
 }
-#message{
+
+#message {
     padding: 100px 135px;
     text-align: start;
 }
@@ -368,7 +499,7 @@
 
 .social {
     display: flex;
-    margin: 0px  2px;
+    margin: 0px 2px;
     padding: 3px 3px;
     font-size: 20px;
     gap: 6px;
@@ -455,11 +586,13 @@
     margin-left: 85px;
     font-size: 15px;
 }
-.logo1 img{
+
+.logo1 img {
     width: 250px;
 }
-.noaera{
+
+.noaera {
     height: 150px;
-    width:450px;
+    width: 450px;
     margin-left: 10px;
 }

@@ -171,11 +171,53 @@
 .sect1{
     display: flex;
 }
+.sectx{
+    margin-top: 70px;
+}
+.sectx button{
+    margin:20px 85px;
+    padding:10px  20px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color:
+    rgb(105, 114, 125);
+    color: whitesmoke;
+    border-style: none;
+}
+.sectx h2{
+    margin: 0px 30px;
+    padding: 0px 50px;
+    font-size: 33px;
+    color: rgb(59, 54, 99);
+
+}
+.sectx p{
+    margin: 15px 32px;
+    padding: 0px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(105, 102, 135);
+
+}
 .seci img{
     width:550px;
 }
+.sect2 h2{
+    color: rgb(59, 54, 99);
+    margin: 10px;
+}
+.sect2 b{
+    color: rgb(59, 54, 99);
+}
 .sect2 li img{
     width:30px;
+    margin: -7px 4px;
+}
+.sect2 ul li{
+    font-size: 19px;
+    margin: 15px 5px;
+    color: rgb(105, 102, 135);
+
 }
 .bus{
     text-align: center;
@@ -185,9 +227,12 @@
     margin: 10px;
     padding:10px;
     font-size: 30px;
+    color: rgb(59, 54, 99);
 }
 .bus p{
     font-size: 18px;
+    color: rgb(105, 102, 135);
+    font-weight: 400;
 }
 .busbox{
     display: flex;
@@ -206,9 +251,34 @@
 .reports h2{
     text-align: center;
     margin: 20px;
-    font-size: 25px;
+    font-size: 35px;
+    color: rgb(59, 54, 99);
 }
 
+.reports p {
+    color: rgb(105, 102, 135);
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.reports h5{
+    color: rgb(59, 54, 99);
+    margin:20px ;
+    font-size: 20px;
+}
+.reports ul li{
+    color: rgb(105, 102, 135);
+    font-size: 22px;
+    margin: 15px 5px;
+}
+.reports ul li img{
+    width:40px;
+    margin: -7px 4px;
+}
+.reports li b{
+    color: rgb(59, 54, 99);
+
+}
 .leftbox{
     display: flex;
     /* justify-content: flex-end; */
