@@ -174,30 +174,71 @@
     font-size: 33px;
     background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
 }
-.section-1{
+
+.section-1 {
     display: flex;
+    gap: 25px;
 }
-.secima img{
-    width:600px;
+
+.secima img {
+    width: 600px;
 }
-.ourdata img{
-    width:30px;
+
+.ourdata img {
+    width: 30px;
 }
-.section2{
+
+.section2 {
     text-align: center;
     margin: 10px 30px;
     padding: 10px 28px;
 }
-.part1{
+
+.text2 h2 {
+    font-size: 35px;
+    color:
+        rgb(59, 54, 99);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.text2 p {
+    color:
+        rgb(105, 102, 135);
+    padding: 10px;
+    font-size: 20px;
+}
+.ourdata h3{
+    color:
+    rgb(59, 54, 99);
+    font-size: 22px;
+    margin-left: 5px;
+    margin:10px;
+}
+.ourdata ul li img{
+    margin:0px 15px;
+}
+.ourdata ul li {
+    font-size: 20px;
+    color:
+    rgb(105, 102, 135);
+    margin-bottom: 3px;
+    padding-bottom: 2px;
+}
+
+.part1 {
     border: 1px solid grey;
 }
-.part1 h2{
+
+.part1 h2 {
     font-size: 20px;
     color: rgb(105, 102, 135);
-    padding:12px;
+    padding: 12px;
     background-color: rgb(254, 116, 87);
 }
-.part1 p{
+
+.part1 p {
     color: rgb(105, 102, 135);
     margin: 10px 17px;
     font-size: 20px;
@@ -211,8 +252,8 @@
     text-align: center;
     font-size: 40px;
     color: rgb(27, 27, 49);
-    margin:10px;
-    padding:20px;
+    margin: 10px;
+    padding: 20px;
 }
 
 .faqs h6 {
@@ -238,7 +279,7 @@
 
 .social {
     display: flex;
-    margin: 0px  2px;
+    margin: 0px 2px;
     padding: 3px 3px;
     font-size: 20px;
     gap: 6px;
@@ -327,11 +368,13 @@
     margin-left: 85px;
     font-size: 15px;
 }
-.logo1 img{
+
+.logo1 img {
     width: 250px;
 }
-.noaera{
+
+.noaera {
     height: 150px;
-    width:450px;
+    width: 450px;
     margin-left: 10px;
 }

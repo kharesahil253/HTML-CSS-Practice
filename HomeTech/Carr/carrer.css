@@ -169,3 +169,110 @@
     padding:100px 100px;
     justify-content: space-between;
 }
+
+.lastcontent {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.lastcontent .con1 {
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    margin: 0px 2px;
+    padding: 3px 3px;
+    font-size: 20px;
+    gap: 6px;
+}
+
+.social i {
+    margin: 0px px;
+}
+
+.info {
+    margin: 30px 0px;
+
+}
+
+.info-1 {
+    display: flex;
+    width: 40%;
+}
+
+.info-1 img {
+    margin-right: 17px;
+    width: 50px;
+    margin-left: 7px;
+}
+
+.info-1 h5 {
+    margin-left: 20px;
+}
+
+.info-2 {
+    display: flex;
+    width: 60%;
+}
+
+.info-2 img {
+    padding-top: 5px;
+    padding-right: 2px;
+    margin-top: 15px;
+    margin-right: 25px;
+    width: 60px;
+}
+
+.info-2 h5 {
+    margin-left: 8px;
+}
+
+.table {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.tab2 {
+    margin-left: 60px;
+}
+
+.tab1 ul {
+    margin-top: 28px;
+}
+
+.phase1 ol {
+    list-style: visible;
+}
+
+.tab1 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.tab2 ul {
+    margin-top: 30px;
+}
+
+.tab2 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.inside {
+    width: 80%;
+    bottom: 0;
+    padding-left: 85px;
+    margin-left: 85px;
+    font-size: 15px;
+}
+
+.logo1 img {
+    width: 250px;
+}

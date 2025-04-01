@@ -54,6 +54,7 @@
     display: flex;
     gap: 16px;
     font-weight: bold;
+
     /* background-color:red; */
 }
 
@@ -176,28 +177,54 @@
     background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
 }
 
-.section-1{
+.section-1 {
     display: flex;
+    gap: 40px;
 }
-.secima img{
-    width:600px;
+
+.secima img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 500px;
 }
-.section2{
+
+.text2 {
+    margin: 60px;
+}
+
+.text2 h2 {
+    margin: 10px;
+    color: rgb(59, 54, 99);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text2 p {
+    margin: 10px;
+    color:
+        rgb(105, 102, 135);
+    font-size: 20px;
+}
+
+.section2 {
     margin: 10px 30px;
     padding: 10px 28px;
 }
-.part1{
+
+.part1 {
     border: 1px solid grey;
-    margin:15px;
+    margin: 15px;
 }
-.part1 h2{
+
+.part1 h2 {
     font-size: 20px;
     color: rgb(105, 102, 135);
-    padding:12px;
+    padding: 12px;
     text-align: center;
     background-color: rgb(254, 116, 87);
 }
-.part1 p{
+
+.part1 p {
     color: rgb(105, 102, 135);
     margin: 10px 17px;
     font-size: 20px;
@@ -207,12 +234,28 @@
 
 }
 
-.part1 ul li{
-        color: rgb(105, 102, 135);
-       list-style: disc;
-       margin:18px;
-       margin-left: 32px;
-       font-size: 18px;
+.part1 ul li {
+    color: rgb(105, 102, 135);
+    list-style: disc;
+    margin: 18px;
+    margin-left: 32px;
+    font-size: 18px;
+}
+
+.too {
+    color: red;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.to2 {
+    font-style: bold;
+    font-weight: 700;
+    color: blue;
+}
+
+.linn {
+    font-style: underline;
 }
 
 .lastcontent {
@@ -230,7 +273,7 @@
 
 .social {
     display: flex;
-    margin: 0px  2px;
+    margin: 0px 2px;
     padding: 3px 3px;
     font-size: 20px;
     gap: 6px;
@@ -317,11 +360,13 @@
     margin-left: 85px;
     font-size: 15px;
 }
-.logo1 img{
+
+.logo1 img {
     width: 250px;
 }
-.noaera{
+
+.noaera {
     height: 150px;
-    width:450px;
+    width: 450px;
     margin-left: 10px;
 }

@@ -12,6 +12,7 @@
     width: 100%;
     margin: auto;
 }
+
 .mainhead {
     width: 100%;
     display: flex;
@@ -62,6 +63,7 @@
 .button h4:hover {
     background-color: black;
 }
+
 .endhead {
     display: flex;
     /* background-color: yellow; */
@@ -79,6 +81,7 @@
     margin-right: 20px;
 
 }
+
 .thelist ul li {
     text-decoration: none;
     color: black;
@@ -87,6 +90,7 @@
 .icon i {
     font-size: 31px;
 }
+
 .dropdown {
     position: absolute;
     top: 30px;
@@ -157,6 +161,7 @@
 .th h5 {
     font-size: 11px;
 }
+
 .icon {
     font-size: 25px;
     margin-right: 23px;
@@ -168,60 +173,97 @@
     font-size: 35px;
     background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
 }
-.content1{
+
+.content1 {
     display: flex;
     gap: 35px;
 }
-.timg img{
-    width:550px;
+
+.timg img {
+    width: 550px;
 }
-.conte1{
-    margin:20px 20px;
-    padding:30px 30px;
+
+.conte1 {
+    margin: 20px 20px;
+    padding: 30px 30px;
 }
-.conte1 h3{
+
+.conte1 h3 {
     padding: 0px 55px;
     font-size: 28px;
+    color:
+        rgb(59, 54, 99);
 }
-.conte1 p{
-    margin: 12px 27px;
-    font-size: 17px;
-    font-weight: 450 ;
+
+.conte1 p {
+    color:
+        rgb(105, 102, 135);
+    margin: 30px 27px;
+    font-size: 18px;
+    font-weight: 420;
     line-height: 25px;
-    padding:0px 20px;
+    padding: 0px 20px;
 }
-.texthead{
-    margin:10px;
+
+.texthead {
+    margin: 10px;
     font-size: 18px;
 }
-.texthead h4{
+
+.texthead h4 {
     margin: 20px 20px;
+    color:
+        rgb(59, 54, 99);
 }
-.texthead p{
-    margin:10px 20px
+
+.texthead p {
+    margin: 10px 20px;
+    color:
+        rgb(105, 102, 135);
+    padding: 4px;
+    font-weight: 400;
 }
-.colum ul li img{
-    width:25px;
+.colum h3{
+    font-size: 25px;
+    color:
+    rgb(59, 54, 99);
+    margin: 0px 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-.best{
+.colum ul li img {
+    width: 30px;
+    margin: -7px 4px;
+}
+.colum ul li{
+    font-size: 19px;
+    margin: 15px 9px;
+    color: rgb(105, 102, 135);
+}
+
+.best {
     text-align: center;
     font-size: 34px;
-    margin:20px;
+    margin: 20px;
 }
-.tat{
+
+.tat {
     display: flex;
     flex-wrap: wrap;
 }
-.tatoo{
-    width:25%;
+
+.tatoo {
+    width: 25%;
     text-align: center;
-    margin:7px 0px;
-    padding:30px;
+    margin: 7px 0px;
+    padding: 30px;
 }
-.tatoo img{
-    width :90px;
+
+.tatoo img {
+    width: 90px;
 }
-.tatoo h3{
+
+.tatoo h3 {
     font-size: 22px;
 }
 
@@ -243,20 +285,22 @@
 
 .leftbox {
     display: flex;
-    gap:50px;
+    gap: 50px;
     /* justify-content: flex-end; */
 }
-.leftr img{
-    width:450px;
+
+.leftr img {
+    width: 450px;
     margin: 20px 50px;
 }
+
 .entrybox {
 
     border: 5px solid none;
     padding: 40px;
-    margin: 40px ;
+    margin: 40px;
     margin-left: 55px;
-    width:50%;
+    width: 50%;
     background-image: url(/Politica-main/WhatsBulk/images/Section.png);
     background-position: 65%;
     background-size: cover;
