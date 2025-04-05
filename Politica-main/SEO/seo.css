@@ -56,6 +56,7 @@
 .button h4:hover {
     background-color: black;
 }
+
 .endhead {
     display: flex;
     /* background-color: yellow; */
@@ -73,6 +74,7 @@
     margin-right: 20px;
 
 }
+
 .thelist ul li {
     text-decoration: none;
     color: black;
@@ -163,98 +165,135 @@
     width: 100%;
     margin: auto;
 }
-.con0{
+
+.con0 {
     display: flex;
     width: 100%;
 }
-.theim{
-    margin: 40px ;
+
+.theim {
+    margin: 40px;
     padding: 10px;
 }
-.theim img{
+
+.theim img {
     margin-top: 40px;
     width: 600px;
 }
-.thetext{
-    margin: 50px ;
+
+.thetext {
+    margin: 50px;
     padding: 10px;
 }
-.thetext h3{
+
+.thetext h3 {
     font-size: 32px;
     margin: 10px;
     padding: 5px 5px;
+    color:
+        rgb(59, 54, 99);
 }
-.thetext p{
+
+.thetext p {
     font-size: 18px;
     margin: 5px;
     padding: 10px 10px;
+    color:
+        rgb(105, 102, 135);
 }
-.con h2{
+
+.con h2 {
     font-size: 32px;
     margin: 20px;
     padding: 10px 10px;
+    color:
+        rgb(59, 54, 99);
 }
-.con p{
+
+.con p {
     padding: 10px 10px;
-    margin: 5px;
+    margin: 0px 19px;
     font-size: 18px;
+    color:
+        rgb(105, 102, 135);
 }
-.phase1 h2{
+
+.phase1 h2 {
     text-align: center;
     font-size: 30px;
     margin: 20px;
-    padding:10px 10px;
+    padding: 10px 10px;
+    color:
+        rgb(59, 54, 99);
 }
-.phase1 p{
+
+.phase1 p {
     margin-bottom: 10px;
     font-size: 20px;
-    padding:5px;
+    padding: 5px;
+    color:
+        rgb(105, 102, 135);
 }
-.lr1 h4{
-    font-size: 22px;
-    margin:15px;
+
+.lr1 h4 {
+    font-size: 24px;
+    margin: 15px;
+    color: rgb(59, 54, 99);
+    margin-left: 13px;
 }
-.lr1 ul li{
+
+.lr1 ul li {
     padding: 10px;
-    font-size: 16px;
+    font-size: 17px;
+    color:
+        rgb(105, 102, 135);
+    margin-left: 27px;
 }
-.thelis{
+
+.thelis {
     margin: 12px;
-    padding:10px 10px;
+    padding: 10px 10px;
     color: blue;
 }
-.thelis h3{
+
+.thelis h3 {
     margin: 5px;
     font-size: 25px;
-    padding:10px 10px;
+    padding: 10px 10px;
 }
-.thelis p{
-    padding:15px 15px;
+
+.thelis p {
+    padding: 15px 15px;
 }
-.thelis ul{
+
+.thelis ul {
     padding: 5px 5px;
 }
-.thelis ul li{
+
+.thelis ul li {
     margin: 5px;
     padding: 3px;
 }
-.lr{
+
+.lr {
     display: flex;
 }
-.lr2 img{
-    width:650px;
-    margin:0px 5px;
+
+.lr2 img {
+    width: 650px;
+    margin: 0px 5px;
 }
 
-.faqs{
+.faqs {
     margin-bottom: 25px;
 }
+
 .faqs h3 {
     text-align: center;
     font-size: 40px;
     color: rgb(27, 27, 49);
-    margin:10px;
-    padding:20px;
+    margin: 10px;
+    padding: 20px;
 }
 
 .faqs h6 {
@@ -264,34 +303,39 @@
     color: gray;
     border-bottom: 1px solid gray;
 }
-.leftbox{
+
+.leftbox {
     display: flex;
     /* justify-content: flex-end; */
     width: 600px;
     float: right;
     /* background-image: url("../WhatsBulk/images/Section.png"); */
 }
-.entrybox{
+
+.entrybox {
     border: 5px solid none;
     padding: 40px;
     background-image: url("./images/Section.png");
-    background-position:0%;
-    background-size:cover;
+    background-position: 0%;
+    background-size: cover;
 }
 
-.entrybox h3{
+.entrybox h3 {
     font-size: 30px;
     padding: 20px;
 }
-.entrybox h6{
+
+.entrybox h6 {
     font-size: 20px;
     padding: 20px;
 }
-.entrybox h4{
+
+.entrybox h4 {
     font-size: 20px;
     padding: 20px;
 }
-.send{
+
+.send {
     background-color: blue;
     color: white;
     padding: 12px 12px;
@@ -300,24 +344,27 @@
     margin-left: 10px;
 }
 
-.noaera{
+.noaera {
     margin-top: 10px;
     height: 150px;
-    width:400px;
+    width: 400px;
     margin-left: 10px;
 }
-.the-input{
+
+.the-input {
     display: flex;
     flex-wrap: wrap;
 }
-.the-input input{
+
+.the-input input {
     margin: 10px 10px !important;
     padding: 15px !important;
     border: none;
     border-bottom: 1px solid grey;
     background: none;
 }
-#message{
+
+#message {
     padding: 100px 135px;
     text-align: start;
 }
@@ -337,7 +384,7 @@
 
 .social {
     display: flex;
-    margin: 0px  2px;
+    margin: 0px 2px;
     padding: 3px 3px;
     font-size: 20px;
     gap: 6px;
@@ -424,6 +471,7 @@
     margin-left: 85px;
     font-size: 15px;
 }
-.logo1 img{
+
+.logo1 img {
     width: 250px;
 }

@@ -172,7 +172,9 @@
     
 }
 .meet img {
-    width: 600px;
+    width: 500px;
+    margin:90px;
+    margin-right: 90px;
 }
 
 .meet img:hover {
@@ -180,7 +182,24 @@
     transition: 0.75s;
 }
 
-
+.text {
+    width: 50%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.text h3{
+    font-size: 35px;
+    margin-top:40px;
+    font-size: 26px;
+    color:
+        rgb(59, 54, 99);
+}
+.text p{
+    color:
+    rgb(105, 102, 135);
+    margin-top: 20px;
+    font-size: 20px;
+}
 .animated {
     width: 50%;
 

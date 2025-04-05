@@ -168,3 +168,246 @@
     font-size: 35px;
     background: linear-gradient(90deg, rgba(200, 223, 232, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(253, 220, 195, 1) 100%);
 }
+.section-1{
+}
+.section-1 h2,.eres h2{
+    color:
+rgb(59, 54, 99);
+font-size: 31px;
+margin: 15px 15px;
+padding: 10px 20px;
+text-align: center;
+
+}
+.section-1 p{
+    color:
+rgb(105, 102, 135);
+padding: 14px 12px;
+margin: 0px 34px;
+font-size: 18px;
+}
+.yoim{
+    text-align: center;
+}
+.yoim img{
+    width:650px;
+}
+.max{
+    margin:20px 50px;
+    font-size: 18px;
+}
+.max h5{
+    color:
+    rgb(59, 54, 99);
+}
+.max p,.enco p{
+    margin-top: 20px;
+    color:
+    rgb(105, 102, 135);
+}
+.ers ul{
+    margin-top: 20px;
+}
+.eres ul li,.enco ul li{
+    list-style: disc  !important;
+    color:
+    rgb(105, 102, 135);
+    padding:5px;
+    margin-left: 60px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.enco h5{
+    text-align: center;
+    margin: 25px 49px;
+    padding: 10px 60px;
+    font-size: 17px;
+    color: rgb(59, 54, 99);
+}
+
+.faqs h3 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(27, 27, 49);
+    margin:10px;
+    padding:20px;
+}
+
+.faqs h6 {
+    margin: 2px;
+    padding: 15px;
+    font-size: 16px;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+.leftbox {
+    display: flex;
+    /* justify-content: flex-end; */
+    width: 600px;
+    float: right;
+    margin: 10px;
+}
+
+.entrybox {
+    border: 5px solid none;
+    padding: 40px;
+    background-image: url(/Politica-main/WhatsBulk/images/Section.png);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.send {
+    background-color: blue;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 8px;
+    margin-left: 3px;
+    margin-left: 10px;
+}
+
+.entrybox h3 {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.entrybox h6 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.entrybox h4 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.the-input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.the-input input {
+    margin: 10px 10px !important;
+    padding: 15px !important;
+    border: none;
+    border-style: none;
+    border-bottom: 1px solid grey;
+}
+
+#message {
+    padding: 100px 135px;
+    text-align: start;
+}
+
+.lastcontent {
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    gap: 20px;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.lastcontent .con1 {
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    margin: 0px 2px;
+    padding: 3px 3px;
+    font-size: 20px;
+    gap: 6px;
+}
+
+.social i {
+    margin: 0px px;
+}
+
+.info {
+    margin: 30px 0px;
+    /
+}
+
+.info-1 {
+    display: flex;
+    width: 40%;
+}
+
+.info-1 img {
+    margin-right: 17px;
+    width: 50px;
+    margin-left: 7px;
+}
+
+.info-1 h5 {
+    margin-left: 20px;
+}
+
+.info-2 {
+    display: flex;
+    width: 60%;
+}
+
+.info-2 img {
+    padding-top: 5px;
+    padding-right: 2px;
+    margin-top: 15px;
+    margin-right: 25px;
+    width: 60px;
+}
+
+.info-2 h5 {
+    margin-left: 8px;
+}
+
+.table {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.tab2 {
+    margin-left: 60px;
+}
+
+.tab1 ul {
+    margin-top: 28px;
+}
+
+.phase1 ol {
+    list-style: visible;
+}
+
+.tab1 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.tab2 ul {
+    margin-top: 30px;
+}
+
+.tab2 ul li {
+    margin-top: 8px;
+    font-size: 17px;
+}
+
+.inside {
+    width: 80%;
+    bottom: 0;
+    padding-left: 85px;
+    margin-left: 85px;
+    font-size: 15px;
+}
+
+.logo1 img {
+    width: 250px;
+}
+
+.noaera {
+    height: 150px;
+    width: 450px;
+    margin-left: 10px;
+}
